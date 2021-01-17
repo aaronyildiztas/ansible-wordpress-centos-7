@@ -1,0 +1,32 @@
+- hosts: webhomework
+tasks:
+- name: Install Apache
+yum:
+name: httpd
+state: present
+- name: Start httpd 
+service:
+name: httpd
+state: started
+- name: Install Prerequisites
+package:
+name:
+- libselinux-python
+- epel-release
+state: present
+- name: Disable Selinux
+selinux:
+state: disabled
+register: selinux_status
+- name: install unzip package
+yum:
+name: unzip
+state: latest
+- name: Unarchive the file
+ansible.builtin.unarchive:
+src: https://www.free-css.com/assets/files/free-css-templates/download/page262/dsports.zip
+dest: /usr/local/bin
+remote_src: yes
+- name: Move Files
+shell: mv /usr/local/bin/dsports/* /var/www/html/
+
