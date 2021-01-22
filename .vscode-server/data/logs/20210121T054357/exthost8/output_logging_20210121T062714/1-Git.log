@@ -1,0 +1,26 @@
+Looking for git in: git
+Using git 1.8.3.1 from git
+> git rev-parse --git-dir
+Open repository: /root/ansible-playbooks
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/ansible-playbooks/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :wordpress-lamp_ubuntu1804/playbook.yml
+> git ls-files --stage -- /root/ansible-playbooks/wordpress-lamp_ubuntu1804/playbook.yml
+> git cat-file -s 80e4a4f24340f07d80fe945b8e5494878b0a9e95
+> git check-ignore -v -z --stdin
+> git show --textconv :wordpress-lamp_ubuntu1804/vars/default.yml
+> git ls-files --stage -- /root/ansible-playbooks/wordpress-lamp_ubuntu1804/vars/default.yml
+> git cat-file -s 7c9e9fb46e7dadd3f44024a5cb2bcd3eb6fff3ee
+> git check-ignore -v -z --stdin
+> git show --textconv :wordpress-lamp_ubuntu1804/playbook.yml
+> git ls-files --stage -- /root/ansible-playbooks/wordpress-lamp_ubuntu1804/playbook.yml
+> git cat-file -s 80e4a4f24340f07d80fe945b8e5494878b0a9e95
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

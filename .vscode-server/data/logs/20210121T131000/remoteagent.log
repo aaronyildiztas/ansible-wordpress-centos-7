@@ -1,0 +1,90 @@
+[2021-01-21 13:10:00.920] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-01-21 13:10:00.920] [remoteagent] [info] Extension host agent started.
+[2021-01-21 13:10:01.129] [remoteagent] [info] [127.0.0.1][5cd8a296][ManagementConnection] New connection established.
+[2021-01-21 13:10:01.131] [remoteagent] [info] [127.0.0.1][1f5403e1][ExtensionHostConnection] New connection established.
+[2021-01-21 13:10:01.254] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-21 13:10:01.308] [remoteagent] [info] [127.0.0.1][1f5403e1][ExtensionHostConnection] <24485> Launched Extension Host Process.
+[2021-01-21 13:10:42.860] [remoteagent] [info] [127.0.0.1][5cd8a296][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 13:10:43.881] [remoteagent] [info] [127.0.0.1][1f5403e1][ExtensionHostConnection] <24485> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 13:10:43.882] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-01-21 13:10:44.540] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] New connection established.
+[2021-01-21 13:10:44.541] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] New connection established.
+[2021-01-21 13:10:44.553] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] <24576> Launched Extension Host Process.
+[2021-01-21 13:10:44.631] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-21 13:10:44.675] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/ansible-wpubuntu/.vscode'
+[2021-01-21 13:15:43.882] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-01-21 17:31:58.558] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 17:32:03.334] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 17:42:31.421] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 17:42:35.511] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 17:44:25.638] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 17:44:25.639] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 17:44:38.331] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-21 17:44:39.859] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-21 17:44:39.859] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 17:44:53.231] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 18:14:19.556] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 18:14:19.556] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 18:15:47.246] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 18:15:52.234] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 19:23:04.069] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 19:23:04.070] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 19:40:22.074] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-21 19:52:46.503] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-21 19:52:46.504] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 19:52:50.786] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 20:09:54.791] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-21 20:45:06.921] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-21 20:45:06.921] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 20:45:06.922] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 20:58:06.977] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-21 20:58:07.552] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-21 20:58:07.553] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 20:58:10.807] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 21:30:48.603] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-21 21:31:40.737] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-21 21:31:40.737] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 21:31:40.740] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 21:38:14.094] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 21:38:17.976] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 22:50:13.089] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 22:50:13.090] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 23:07:25.788] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-21 23:07:35.514] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-21 23:07:35.514] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 23:07:39.552] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-21 23:09:37.305] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-21 23:09:37.306] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-22 00:32:49.256] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-22 00:32:49.892] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-22 00:32:49.892] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-22 00:32:54.097] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-22 00:50:03.192] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-22 01:02:19.234] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-22 01:02:19.234] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-22 01:02:19.235] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-22 01:19:27.203] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-22 01:46:20.186] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-22 01:46:20.186] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-22 01:46:25.042] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-22 01:49:48.229] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-01-22 01:49:49.175] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-01-22 01:49:49.176] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-22 01:49:49.176] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-22 04:57:28.791] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-22 04:57:33.085] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-22 04:58:28.557] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has reconnected.
+[2021-01-22 04:58:28.557] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] The client has reconnected.
+[2021-01-22 05:57:49.061] [remoteagent] [info] [127.0.0.1][a2db5f82][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-22 05:57:50.105] [remoteagent] [info] [127.0.0.1][39bc9b65][ExtensionHostConnection] <24576> Extension Host Process exited with code: 0, signal: null.
+[2021-01-22 05:57:50.105] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-01-22 06:02:50.105] [remoteagent] [info] Last EH closed, shutting down

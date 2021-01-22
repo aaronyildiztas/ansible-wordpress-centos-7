@@ -1,0 +1,85 @@
+[2021-01-21 05:43:57.625] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-01-21 05:43:57.625] [remoteagent] [info] Extension host agent started.
+[2021-01-21 05:43:57.697] [remoteagent] [info] [127.0.0.1][f5c45990][ManagementConnection] New connection established.
+[2021-01-21 05:43:57.699] [remoteagent] [info] [127.0.0.1][79b3da07][ExtensionHostConnection] New connection established.
+[2021-01-21 05:43:57.785] [remoteagent] [info] [127.0.0.1][79b3da07][ExtensionHostConnection] <1983> Launched Extension Host Process.
+[2021-01-21 05:43:57.792] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-21 05:44:03.885] [remoteagent] [info] [127.0.0.1][f5c45990][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 05:44:04.893] [remoteagent] [info] [127.0.0.1][79b3da07][ExtensionHostConnection] <1983> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 05:44:04.893] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-01-21 05:44:05.556] [remoteagent] [info] [127.0.0.1][d790026f][ManagementConnection] New connection established.
+[2021-01-21 05:44:05.557] [remoteagent] [info] [127.0.0.1][bc347ea4][ExtensionHostConnection] New connection established.
+[2021-01-21 05:44:05.572] [remoteagent] [info] [127.0.0.1][bc347ea4][ExtensionHostConnection] <2023> Launched Extension Host Process.
+[2021-01-21 05:44:05.651] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-21 05:44:05.669] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/ansible-playbooks/.vscode'
+[2021-01-21 05:46:19.708] [remoteagent] [info] [127.0.0.1][467c54bf][ManagementConnection] New connection established.
+[2021-01-21 05:46:19.709] [remoteagent] [info] [127.0.0.1][3862f6bd][ExtensionHostConnection] New connection established.
+[2021-01-21 05:46:19.719] [remoteagent] [info] [127.0.0.1][3862f6bd][ExtensionHostConnection] <2357> Launched Extension Host Process.
+[2021-01-21 05:46:19.823] [remoteagent] [info] Listing 1 persistent terminals, 1 total terminals
+[2021-01-21 05:47:59.747] [remoteagent] [info] [127.0.0.1][467c54bf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 05:48:00.763] [remoteagent] [info] [127.0.0.1][3862f6bd][ExtensionHostConnection] <2357> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 05:48:00.764] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-01-21 05:48:01.484] [remoteagent] [info] [127.0.0.1][31aa6428][ManagementConnection] New connection established.
+[2021-01-21 05:48:01.487] [remoteagent] [info] [127.0.0.1][bf563e00][ExtensionHostConnection] New connection established.
+[2021-01-21 05:48:01.496] [remoteagent] [info] [127.0.0.1][bf563e00][ExtensionHostConnection] <2731> Launched Extension Host Process.
+[2021-01-21 05:48:01.574] [remoteagent] [info] Listing 1 persistent terminals, 1 total terminals
+[2021-01-21 05:48:01.628] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/ansible-playbooks/wordpress-lamp_ubuntu1804/.vscode'
+[2021-01-21 05:57:06.686] [remoteagent] [info] [127.0.0.1][d790026f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 05:57:07.718] [remoteagent] [info] [127.0.0.1][bc347ea4][ExtensionHostConnection] <2023> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 06:20:10.509] [remoteagent] [info] [127.0.0.1][bba1996c][ManagementConnection] New connection established.
+[2021-01-21 06:20:10.510] [remoteagent] [info] [127.0.0.1][110e2043][ExtensionHostConnection] New connection established.
+[2021-01-21 06:20:10.528] [remoteagent] [info] [127.0.0.1][110e2043][ExtensionHostConnection] <17924> Launched Extension Host Process.
+[2021-01-21 06:20:10.592] [remoteagent] [info] Listing 2 persistent terminals, 2 total terminals
+[2021-01-21 06:20:27.108] [remoteagent] [info] [127.0.0.1][bba1996c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 06:20:28.119] [remoteagent] [info] [127.0.0.1][110e2043][ExtensionHostConnection] <17924> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 06:20:28.738] [remoteagent] [info] [127.0.0.1][f8fccdf5][ManagementConnection] New connection established.
+[2021-01-21 06:20:28.738] [remoteagent] [info] [127.0.0.1][2215ee86][ExtensionHostConnection] New connection established.
+[2021-01-21 06:20:28.748] [remoteagent] [info] [127.0.0.1][2215ee86][ExtensionHostConnection] <18007> Launched Extension Host Process.
+[2021-01-21 06:20:28.839] [remoteagent] [info] Listing 2 persistent terminals, 2 total terminals
+[2021-01-21 06:20:28.854] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/ansible-wordpress-role/.vscode'
+[2021-01-21 06:25:10.605] [remoteagent] [info] The short reconnection grace time of 5m has expired, so the terminal process with pid 2044 will be shutdown.
+[2021-01-21 06:26:06.840] [remoteagent] [info] [127.0.0.1][f8fccdf5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 06:26:07.867] [remoteagent] [info] [127.0.0.1][2215ee86][ExtensionHostConnection] <18007> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 06:26:22.801] [remoteagent] [info] [127.0.0.1][31aa6428][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 06:26:23.830] [remoteagent] [info] [127.0.0.1][bf563e00][ExtensionHostConnection] <2731> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 06:26:23.830] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-01-21 06:26:59.714] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-01-21 06:26:59.714] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-01-21 06:26:59.944] [remoteagent] [info] [127.0.0.1][5330f84e][ManagementConnection] New connection established.
+[2021-01-21 06:26:59.945] [remoteagent] [info] [127.0.0.1][764d2283][ExtensionHostConnection] New connection established.
+[2021-01-21 06:26:59.956] [remoteagent] [info] [127.0.0.1][764d2283][ExtensionHostConnection] <19229> Launched Extension Host Process.
+[2021-01-21 06:27:00.033] [remoteagent] [info] Listing 2 persistent terminals, 2 total terminals
+[2021-01-21 06:27:00.066] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/ansible-wordpress-role/.vscode'
+[2021-01-21 06:27:00.204] [remoteagent] [info] Replaying 1024 chars and 3 size events.
+[2021-01-21 06:27:11.723] [remoteagent] [info] [127.0.0.1][5330f84e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 06:27:12.745] [remoteagent] [info] [127.0.0.1][764d2283][ExtensionHostConnection] <19229> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 06:27:12.745] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-01-21 06:27:12.745] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-01-21 06:27:13.301] [remoteagent] [info] [127.0.0.1][87877fa9][ManagementConnection] New connection established.
+[2021-01-21 06:27:13.304] [remoteagent] [info] [127.0.0.1][46ad4a70][ExtensionHostConnection] New connection established.
+[2021-01-21 06:27:13.314] [remoteagent] [info] [127.0.0.1][46ad4a70][ExtensionHostConnection] <19294> Launched Extension Host Process.
+[2021-01-21 06:27:13.380] [remoteagent] [info] Listing 2 persistent terminals, 2 total terminals
+[2021-01-21 06:27:13.385] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/ansible-playbooks/wordpress-lamp_ubuntu1804/.vscode'
+[2021-01-21 06:27:13.499] [remoteagent] [info] Replaying 16974 chars and 4 size events.
+[2021-01-21 06:27:45.369] [remoteagent] [info] [127.0.0.1][04150bd1][ManagementConnection] New connection established.
+[2021-01-21 06:27:45.369] [remoteagent] [info] [127.0.0.1][4668942d][ExtensionHostConnection] New connection established.
+[2021-01-21 06:27:45.382] [remoteagent] [info] [127.0.0.1][4668942d][ExtensionHostConnection] <19403> Launched Extension Host Process.
+[2021-01-21 06:27:45.443] [remoteagent] [info] Listing 2 persistent terminals, 2 total terminals
+[2021-01-21 06:27:45.473] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/ansible-wordpress-role/.vscode'
+[2021-01-21 06:27:45.618] [remoteagent] [info] Replaying 1068 chars and 5 size events.
+[2021-01-21 06:29:25.587] [remoteagent] [info] [127.0.0.1][04150bd1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 06:29:26.625] [remoteagent] [info] [127.0.0.1][4668942d][ExtensionHostConnection] <19403> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 06:29:26.625] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-01-21 06:29:33.469] [remoteagent] [info] [127.0.0.1][87877fa9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-21 06:29:34.495] [remoteagent] [info] [127.0.0.1][46ad4a70][ExtensionHostConnection] <19294> Extension Host Process exited with code: 0, signal: null.
+[2021-01-21 06:29:34.495] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-01-21 06:34:34.498] [remoteagent] [info] Last EH closed, shutting down

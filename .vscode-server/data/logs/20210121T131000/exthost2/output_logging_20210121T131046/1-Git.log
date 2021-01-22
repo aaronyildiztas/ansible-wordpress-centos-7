@@ -1,0 +1,2182 @@
+Looking for git in: git
+Using git 1.8.3.1 from git
+> git init
+> git rev-parse --git-dir
+Open repository: /root/ansible-wpubuntu
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git config --get-all user.name
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :install_wpubuntu.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-apache-role/.travis.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/.travis.yml
+> git cat-file -s 36bbf6208cfd42ac91bfbe7f9126bc9044e186c6
+> git check-ignore -v -z --stdin
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git show --textconv :roles/ansible-mariadb-role/meta/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/meta/main.yml
+> git cat-file -s 227ad9c34d15cb077974e7571481d8f70d53f1c6
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git show --textconv :roles/ansible-apache-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/tasks/main.yml
+> git cat-file -s 1cca60901f85b07bfd16ba2d63e1e374d94ec1aa
+> git show --textconv :roles/ansible-mariadb-role/meta/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/meta/main.yml
+> git cat-file -s 227ad9c34d15cb077974e7571481d8f70d53f1c6
+> git check-ignore -v -z --stdin
+> git show --textconv :roles/ansible-apache-role/meta/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/meta/main.yml
+> git cat-file -s 7a3d1c8dc8d856d52a9587aae558558e870b793f
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/meta/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/meta/main.yml
+> git cat-file -s 227ad9c34d15cb077974e7571481d8f70d53f1c6
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-php-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-php-role/tasks/main.yml
+> git cat-file -s d1d6f9f6b9cb99da6ab743a614a11ad5bba42168
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-apache-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/tasks/main.yml
+> git cat-file -s 1cca60901f85b07bfd16ba2d63e1e374d94ec1aa
+> git show --textconv :roles/ansible-php-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-php-role/tasks/main.yml
+> git cat-file -s d1d6f9f6b9cb99da6ab743a614a11ad5bba42168
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/apache.conf.j2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/wp-config.php.j2
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/apache.conf.j2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/apache.conf.j2
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/wp-config.php.j2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/apache.conf.j2
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git show --textconv :roles/ansible-wordpress-role/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/apache.conf.j2
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :roles/ansible-wordpress-role/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/apache.conf.j2
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git show --textconv :roles/ansible-wordpress-role/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/wp-config.php.j2
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/wp-config.php.j2
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :files/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/wp-config.php.j2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :files/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/apache.conf.j2
+> git show --textconv :files/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/wp-config.php.j2
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :files/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/apache.conf.j2
+> git show --textconv :files/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/wp-config.php.j2
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :files/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/apache.conf.j2
+> git show --textconv :files/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/wp-config.php.j2
+> git show --textconv :files/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/apache.conf.j2
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git show --textconv :files/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/apache.conf.j2
+> git show --textconv :files/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/wp-config.php.j2
+> git show --textconv :files/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/apache.conf.j2
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-php-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-php-role/tasks/main.yml
+> git cat-file -s d1d6f9f6b9cb99da6ab743a614a11ad5bba42168
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :files/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/wp-config.php.j2
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :files/apache.conf.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/files/apache.conf.j2
+> git show --textconv :roles/ansible-apache-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/tasks/main.yml
+> git cat-file -s 1cca60901f85b07bfd16ba2d63e1e374d94ec1aa
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+fatal: bad default revision 'HEAD'
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-apache-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/defaults/main.yml
+> git cat-file -s 692c3a0c2833c3ddfa5a53d7e5c9977f4569c502
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-apache-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/defaults/main.yml
+> git cat-file -s 692c3a0c2833c3ddfa5a53d7e5c9977f4569c502
+> git show --textconv :roles/ansible-apache-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/tasks/main.yml
+> git cat-file -s 1cca60901f85b07bfd16ba2d63e1e374d94ec1aa
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/tasks/main.yml
+> git cat-file -s 1cca60901f85b07bfd16ba2d63e1e374d94ec1aa
+> git show --textconv :roles/ansible-apache-role/tasks/main.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :roles/ansible-apache-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/tasks/main.yml
+> git cat-file -s 1cca60901f85b07bfd16ba2d63e1e374d94ec1aa
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-php-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-php-role/defaults/main.yml
+> git cat-file -s 638e835ec303980e5209a7a6b1b298954c6ad692
+> git show --textconv :roles/ansible-php-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-php-role/tasks/main.yml
+> git cat-file -s d1d6f9f6b9cb99da6ab743a614a11ad5bba42168
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git show --textconv :roles/ansible-wordpress-role/templates/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/templates/wp-config.php.j2
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git show --textconv :roles/ansible-wordpress-role/templates/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/templates/wp-config.php.j2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-apache-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/defaults/main.yml
+> git cat-file -s 692c3a0c2833c3ddfa5a53d7e5c9977f4569c502
+> git show --textconv :roles/ansible-apache-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/tasks/main.yml
+> git cat-file -s 1cca60901f85b07bfd16ba2d63e1e374d94ec1aa
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :roles/ansible-php-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-php-role/defaults/main.yml
+> git cat-file -s 638e835ec303980e5209a7a6b1b298954c6ad692
+> git show --textconv :roles/ansible-php-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-php-role/tasks/main.yml
+> git cat-file -s d1d6f9f6b9cb99da6ab743a614a11ad5bba42168
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git show --textconv :roles/ansible-mariadb-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/tasks/main.yml
+> git cat-file -s 08ec097bc6b1fdf91aac25ef6bd144b8a877b3ef
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git show --textconv :roles/ansible-mariadb-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-mariadb-role/defaults/main.yml
+> git cat-file -s 1ea2e76a0f79079f3b1de825e4c2a2c4d56aa0a1
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git show --textconv :roles/ansible-wordpress-role/templates/wp-config.php.j2
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/templates/wp-config.php.j2
+> git add -A -- /root/ansible-wpubuntu/roles/ansible-apache-role/meta/main.yml /root/ansible-wpubuntu/roles/ansible-apache-role/defaults/main.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/templates/wp-config.php.j2
+> git show --textconv :roles/ansible-wordpress-role/templates/wp-config.php.j2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git config --get-all user.name
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/templates/wp-config.php.j2
+fatal: bad default revision 'HEAD'
+> git show --textconv :roles/ansible-apache-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-apache-role/tasks/main.yml
+> git cat-file -s 1cca60901f85b07bfd16ba2d63e1e374d94ec1aa
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :roles/ansible-wordpress-role/defaults/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/defaults/main.yml
+> git cat-file -s 66edd2d5a73982775a2893994762d0ed77ae8cf7
+> git show --textconv :roles/ansible-wordpress-role/tasks/main.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/roles/ansible-wordpress-role/tasks/main.yml
+> git cat-file -s f22a9594028ae4bc2860c6819bba03712fb93bd8
+> git show --textconv :install_wpubuntu.yml
+> git ls-files --stage -- /root/ansible-wpubuntu/install_wpubuntu.yml
+> git cat-file -s b8fdec973051eb80f894d41ff452e1339ac52296
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git config --get-all user.name
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git config --get-all user.name
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/ansible-wpubuntu/install_wpubuntu.yml
+fatal: bad default revision 'HEAD'
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
