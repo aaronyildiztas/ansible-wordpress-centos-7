@@ -187,3 +187,4 @@ ansible-playbook install_wpubuntu.yml
 ansible-playbook install_wpubuntu.yml clear
 clear
 ansible-playbook install_wpubuntu.yml clear
+clear
