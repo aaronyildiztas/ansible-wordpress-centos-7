@@ -1,0 +1,18 @@
+- hosts: wp-ubuntu
+  tasks:
+  - name: Install Apache Ubuntu
+    import_role:
+      name: ansible-apache-role
+
+  - name: Install PHP Ubuntu
+    import_role:
+      name: ansible-php-role
+
+  - name: Install MySQL & MariaDB Ubuntu
+    import_role:
+      name: ansible-mariadb-role
+
+  - name: Install WordPress Ubuntu
+    import_role:
+      name: ansible-wordpress-role
+    

@@ -1,0 +1,11 @@
+---
+- name: Install PHP Packages
+  apt: name={{ item }} update_cache=yes state=latest
+  loop: [ 'python3-pymysql', 'php', 'php-mysql', 'libapache2-mod-php' ]
+
+- name: Install PHP Extensions
+  apt: name={{ item }} update_cache=yes state=latest
+  loop: "{{ php_modules }}"
+  
+
+

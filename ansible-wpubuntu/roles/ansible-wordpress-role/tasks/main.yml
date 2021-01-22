@@ -1,0 +1,43 @@
+- name: Download WordPress
+  unarchive:
+    src: https://wordpress.org/latest.tar.gz
+    dest: /var/www/html/
+    remote_src: True
+  args:
+    creates: /var/www/html/index.php
+
+    
+- name: Remove index.html file 
+  file:
+    path: "/var/www/html/index.html"
+    state: absent
+
+- name: Move files to /var/www/html
+  shell: "mv -f /var/www/html/wordpress/* /var/www/html/ ; rm -rf /var/www/html/wordpress"
+  args:
+    creates: /var/www/html/index.php
+
+- name: Copy wp-config.php file
+  template:
+    src: wp-config.php.j2
+    dest: /var/www/html/wp-config.php
+
+- name: Change file ownership
+  file:
+    path: /var/www/html
+    owner: www-data
+    group: www-data
+    mode: '0755'
+    state: directory
+    recurse: yes
+
+- name: "UFW - Allow HTTP on port {{ http_port }}"
+  ufw:
+    rule: allow
+    port: "{{ http_port }}"
+    proto: tcp
+- name: Set permissions for directories
+  command: "/usr/bin/find /var/www/html/ -type d -exec chmod 750 {} \\;"
+- name: Set permissions for files
+  command: "/usr/bin/find /var/www/html/ -type f -exec chmod 640 {} \\;"
+

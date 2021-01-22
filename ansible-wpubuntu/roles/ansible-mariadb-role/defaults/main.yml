@@ -1,0 +1,4 @@
+#MySQL Settings
+mysql_db: "wordpress"
+mysql_user: "aaron"
+mysql_password: "MyPassword"

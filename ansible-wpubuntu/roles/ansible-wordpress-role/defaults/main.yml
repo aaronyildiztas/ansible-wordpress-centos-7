@@ -1,0 +1,6 @@
+---
+#Wordpress Settings
+mysql_db: "wordpress"
+mysql_user: "aaron"
+mysql_password: "MyPassword"
+http_port: "80"
